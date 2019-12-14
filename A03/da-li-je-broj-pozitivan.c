@@ -7,4 +7,4 @@ int main()
     if (broj>0)
         printf("Broj je pozitivan!\n");
     return 0;
-}	
+}

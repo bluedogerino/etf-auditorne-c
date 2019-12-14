@@ -11,6 +11,7 @@ int main()
     minute=(stepeni-stepen)*60;
     printf("minute : %d\n", minute);
     float sekunde=((stepeni-stepen)-(minute/60.0))*3600;
-    printf("sekunde :%f\n", sekunde);
+    int sekunde2=(int)sekunde;
+    printf("sekunde :%d\n", sekunde2);
     return 0;
 }
