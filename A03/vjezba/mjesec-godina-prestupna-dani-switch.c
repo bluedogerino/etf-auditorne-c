@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-  int mjesec, godina,god ;
+  int mjesec,godina,god ;
   printf("Unesite redni broj mjeseca i godinu : ");
   scanf("%d %d", &mjesec , &godina);
   if (godina % 4 == 0 && godina % 100 != 0 || godina % 400 == 0)
